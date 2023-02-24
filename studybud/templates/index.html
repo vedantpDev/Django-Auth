@@ -1,0 +1,51 @@
+{% extends 'base.html' %} {% block body %}
+<div class="container-fluid my-4 px-0">
+  <div id="carouselExample" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img
+          src="https://images.unsplash.com/photo-1501443762994-82bd5dace89a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8aWNlJTIwY3JlYW18ZW58MHx8MHx8&auto=format&fit=crop&w=400&q=60"
+          class="d-block w-100"
+          alt="..."
+          style="height: 400px; width: 700px"
+        />
+      </div>
+      <div class="carousel-item">
+        <img
+          src="https://images.unsplash.com/photo-1567206563064-6f60f40a2b57?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8aWNlJTIwY3JlYW18ZW58MHx8MHx8&auto=format&fit=crop&w=400&q=60"
+          class="d-block w-100"
+          alt="..."
+          style="height: 400px; width: 700px"
+        />
+      </div>
+      <div class="carousel-item">
+        <img
+          src="https://images.unsplash.com/photo-1629385744299-74b9cf013f52?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGljZSUyMGNyZWFtfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60"
+          class="d-block w-100"
+          alt="..."
+          style="height: 400px; width: 700px"
+        />
+      </div>
+    </div>
+    <button
+      class="carousel-control-prev"
+      type="button"
+      data-bs-target="#carouselExample"
+      data-bs-slide="prev"
+    >
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button
+      class="carousel-control-next"
+      type="button"
+      data-bs-target="#carouselExample"
+      data-bs-slide="next"
+    >
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+
+{% endblock body %}
